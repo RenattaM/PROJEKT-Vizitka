@@ -1,6 +1,12 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
 
 /*
 BARVY:
@@ -14,3 +20,29 @@ tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
 
+body {
+  background-color: #b2bec3;
+}
+
+/*cela karta*/
+.karta {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 550px;
+}
+
+/*nadpis + foto*/
+h1 {
+  color: #d63031;
+}
+
+.foto {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+/*odstavec*/
+
+/*tlačítka*/
