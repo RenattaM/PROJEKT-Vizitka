@@ -39,6 +39,7 @@ body {
 h1 {
   color: #d63031;
   margin: 0;
+  font-size: 36px;
 }
 
 .foto {
@@ -48,7 +49,7 @@ h1 {
   position: absolute;
   bottom: 80%;
   left: 85%;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 /*odstavec*/
