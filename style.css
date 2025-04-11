@@ -32,6 +32,7 @@ body {
   border-radius: 10px;
   width: 550px;
   margin: 150px auto 0 auto;
+  position: relative;
 }
 
 /*nadpis + foto*/
@@ -43,8 +44,38 @@ h1 {
   width: 150px;
   border-radius: 50%;
   border: 3px solid white;
+  position: absolute;
+  bottom: 80%;
+  left: 85%;
 }
 
 /*odstavec*/
+.odstavec {
+  margin-bottom: 30px;
+}
 
 /*tlačítka*/
+.twitter,
+.fb {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 5px;
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+}
+.twitter {
+  background-color: #1da1f2;
+  margin-bottom: 5px;
+}
+.twitter:hover {
+  background-color: #0b7bc1;
+}
+.fb {
+  background-color: #3b5998;
+}
+.fb:hover {
+  background-color: #2b406e;
+}
