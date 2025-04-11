@@ -38,6 +38,7 @@ body {
 /*nadpis + foto*/
 h1 {
   color: #d63031;
+  margin: 0;
 }
 
 .foto {
@@ -47,10 +48,12 @@ h1 {
   position: absolute;
   bottom: 80%;
   left: 85%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 /*odstavec*/
 .odstavec {
+  font-size: 18px;
   margin-bottom: 30px;
 }
 
@@ -63,8 +66,10 @@ h1 {
   border-radius: 5px;
   display: block;
   font-size: 18px;
+  font-weight: bold;
   text-align: center;
   padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 .twitter {
   background-color: #1da1f2;
